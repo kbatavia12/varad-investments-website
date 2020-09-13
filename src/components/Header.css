@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.header__titleContainer > h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.header__components {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.header__components > .link {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.header__components > .link > h3 {
+    color: #f1faee;
+}
